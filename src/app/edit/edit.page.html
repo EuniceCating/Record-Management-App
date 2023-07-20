@@ -1,0 +1,55 @@
+
+<ion-content class="ion-padding">
+  <div class="landing-content">
+    <ion-title> Edit Document</ion-title>
+    <ion-card>
+      <ion-title>Peding Task</ion-title>
+      <br>
+      <ion-list>
+        <ion-item>
+          <ion-input label="Name: " placeholder="Dipinili C. Ano ">  </ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-input label="File Name: " placeholder="Scholarship "></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-input label="Contact Number: " value="+63 9023921"></ion-input>
+        </ion-item>
+
+      
+        <ion-item>
+          <ion-input label="Date Uploaded" value="August 03,2023" [disabled]="true"></ion-input>
+        </ion-item>
+      </ion-list>
+
+      
+    </ion-card>
+    <br>
+    <ion-card>
+      <ion-button expand="block" id="present-alert" color="success" > Update Document
+      <ion-alert
+        trigger="present-alert"
+        subHeader="Updated"
+ 
+      ></ion-alert>
+      </ion-button>
+      <ion-button expand="block" color="success" routerLink="/edit">
+        Update 
+      </ion-button>
+      
+      <ion-button expand="block" color="success" routerLink="/search">
+        Back
+      </ion-button>
+      </ion-card>
+
+
+    <br>
+    <br>
+    <br>
+
+    
+  </div>
+</ion-content>
+
